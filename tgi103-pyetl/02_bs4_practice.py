@@ -33,4 +33,8 @@ print(board)
 print(type(soup))
 print(type(board_obj[0]))
 
+board = soup.select('a.board span')
+print(board_obj)
+print(type(board_obj))
+
 
